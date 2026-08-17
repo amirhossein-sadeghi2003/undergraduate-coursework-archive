@@ -9,3 +9,11 @@ Left_foods
 # Qt Creator and qmake-generated files
 *.pro.user*
 build-*/
+
+# Visual Studio-generated files
+.vs/
+*.vcxproj.user
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/

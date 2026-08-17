@@ -1,0 +1,6 @@
+--- a/pizza_shop_main.h
++++ b/pizza_shop_main.h
+@@ -7,2 +7,3 @@
+ using namespace std;
++class pizza_shop_branch;
+ class pizza_shop_main

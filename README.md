@@ -16,3 +16,7 @@ The Git history begins in 2026, when these files were collected from the univers
 
 - [Hardware Description Languages and Circuits](semester-04/hardware-description-languages) — Four Verilog assignments and a seven-member FPGA scientific-calculator group prototype.
 - [Advanced Programming](semester-04/advanced-programming) — Three-member C++/Qt graphical messenger client developed with equal team participation.
+
+### Semester 05
+
+- [Data Structures](semester-05/data-structures) — Two-member C++ project implementing a two-dimensional KD-tree and custom hash-based lookup for spatial pizza-shop queries.
