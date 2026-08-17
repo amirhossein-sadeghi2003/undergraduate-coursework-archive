@@ -5,3 +5,7 @@ Food_number
 Ordered Food
 All orders
 Left_foods
+
+# Qt Creator and qmake-generated files
+*.pro.user*
+build-*/

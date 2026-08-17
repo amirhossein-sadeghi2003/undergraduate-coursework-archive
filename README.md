@@ -15,3 +15,4 @@ The Git history begins in 2026, when these files were collected from the univers
 ### Semester 04
 
 - [Hardware Description Languages and Circuits](semester-04/hardware-description-languages) — Four Verilog assignments and a seven-member FPGA scientific-calculator group prototype.
+- [Advanced Programming](semester-04/advanced-programming) — Three-member C++/Qt graphical messenger client developed with equal team participation.
