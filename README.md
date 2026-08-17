@@ -11,3 +11,7 @@ The Git history begins in 2026, when these files were collected from the univers
 ### Semester 02
 
 - [Restaurant Ordering Application](semester-02/restaurant-ordering-tkinter) — Individual Python and Tkinter project for the Introduction to Programming course.
+
+### Semester 04
+
+- [Hardware Description Languages and Circuits](semester-04/hardware-description-languages) — Four Verilog assignments covering hierarchical and behavioral modeling, timing, user-defined primitives, and finite-state machines.
