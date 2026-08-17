@@ -14,4 +14,4 @@ The Git history begins in 2026, when these files were collected from the univers
 
 ### Semester 04
 
-- [Hardware Description Languages and Circuits](semester-04/hardware-description-languages) — Four Verilog assignments covering hierarchical and behavioral modeling, timing, user-defined primitives, and finite-state machines.
+- [Hardware Description Languages and Circuits](semester-04/hardware-description-languages) — Four Verilog assignments and a seven-member FPGA scientific-calculator group prototype.

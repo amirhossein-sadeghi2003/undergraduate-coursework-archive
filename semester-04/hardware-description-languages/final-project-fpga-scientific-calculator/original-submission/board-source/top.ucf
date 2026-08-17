@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = AG18;
+NET "operation[2]" LOC = U25;
+NET "operation[1]" LOC = AG27;
+NET "operation[0]" LOC = AF25;
+NET "part[1]" LOC = AE27;
+NET "part[0]" LOC = AE26;
+NET "out[7]" LOC = H18;
+NET "out[6]" LOC = L18;
+NET "out[5]" LOC = G15;
+NET "out[4]" LOC = AD26;
+NET "out[3]" LOC = G16;
+NET "out[2]" LOC = AD25;
+NET "out[1]" LOC = AD24;
+NET "out[0]" LOC = AE24;

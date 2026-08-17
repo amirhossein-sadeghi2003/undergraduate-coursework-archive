@@ -22,6 +22,10 @@ Each assignment includes an English translation of its original Persian prompt
 and the source files that were available in the corresponding submission
 archive.
 
+## Final project
+
+- [FPGA Scientific Calculator Prototype](final-project-fpga-scientific-calculator) — Seven-member group project exploring floating-point arithmetic, CORDIC sine and cosine, memory-based input, and FPGA integration.
+
 ## Archive policy
 
 The code in `original-submission` is preserved as submitted in 2023. Filenames,
