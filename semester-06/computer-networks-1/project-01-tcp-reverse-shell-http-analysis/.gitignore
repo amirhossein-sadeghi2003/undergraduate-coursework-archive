@@ -1,0 +1,15 @@
+# Compiled binaries
+source/client
+source/server
+source/server8080
+
+# Object/debug output
+*.o
+*.out
+*.log
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+*~
