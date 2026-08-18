@@ -1,0 +1,30 @@
+# CodeVisionAVR generated/build output
+Debug/
+Release/
+*.obj
+*.elf
+*.rom
+*.cof
+*.lst
+*.map
+*.asm
+*.a
+*.o
+*.al
+*.ol
+*.cci
+*.cbi
+*.fct
+*.str1
+*.sym1
+*.sym2
+*.sym3
+*.c~
+
+# IDE/workspace state
+*.cfg
+*.workspace
+
+# Proteus generated backups/autosaves
+Project Backups/
+* [Autosaved].pdsprj
