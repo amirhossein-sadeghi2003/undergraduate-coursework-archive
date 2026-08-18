@@ -1,0 +1,17 @@
+# Compiled binaries
+source/dllsniffer
+source/dllsniffer2
+source/dllsniffer_pro
+
+# Object/debug output
+*.o
+*.out
+*.log
+core
+core.*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~

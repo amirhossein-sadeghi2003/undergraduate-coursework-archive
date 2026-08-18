@@ -1,0 +1,10 @@
+#please choose one of these:
+first:
+	gcc dllsniffer.c -o dllsniffer
+second:
+	gcc dllsniffer2.c -o dllsniffer2
+third:
+	gcc dllsniffer_pro.c -o dllsniffer_pro
+clean:
+	rm out1  out2  out3
+	
