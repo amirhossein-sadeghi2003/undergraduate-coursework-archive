@@ -1,0 +1,7 @@
+CREATE TABLE Playlist (
+    PlaylistID SERIAL PRIMARY KEY,
+    Title VARCHAR(100) NOT NULL,
+    Type VARCHAR(50),
+    UserID INT NOT NULL,
+    FOREIGN KEY (UserID) REFERENCES user_(id)
+);

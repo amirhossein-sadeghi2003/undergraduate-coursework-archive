@@ -1,0 +1,7 @@
+CREATE TABLE Ticket (
+    TicketID SERIAL PRIMARY KEY,
+    ConcertID INT REFERENCES Concert(ConcertID),
+    UserID INT REFERENCES user_(id),
+    PurchaseDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    Status VARCHAR(50)
+);

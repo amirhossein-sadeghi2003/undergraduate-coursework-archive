@@ -1,0 +1,7 @@
+CREATE TABLE Message (
+    MessageID SERIAL PRIMARY KEY,
+    SenderID INTEGER REFERENCES user_(id),
+    ReceiverID INTEGER REFERENCES user_(id),
+    Content TEXT,
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

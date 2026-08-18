@@ -1,0 +1,9 @@
+CREATE TABLE FriendRequest (
+    RequestID SERIAL PRIMARY KEY,
+    SenderID INT NOT NULL,
+    ReceiverID INT NOT NULL,
+    Status VARCHAR(20) NOT NULL,
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (SenderID) REFERENCES user_(id),
+    FOREIGN KEY (ReceiverID) REFERENCES user_(id)
+);
