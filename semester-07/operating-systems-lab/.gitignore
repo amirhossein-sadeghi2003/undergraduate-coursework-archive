@@ -1,0 +1,32 @@
+# User-space build outputs
+*.o
+*.out
+*.a
+*.so
+*.exe
+my_app
+my_program
+app
+user
+
+# Linux kernel module build outputs
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+Module.symvers
+modules.order
+.tmp_versions/
+.*.cmd
+
+# Editor / local metadata
+.vscode/
+.idea/
+*~
+*.swp
+
+# Core dumps
+core
+core.*

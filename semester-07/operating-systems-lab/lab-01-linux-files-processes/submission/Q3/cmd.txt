@@ -1,0 +1,2 @@
+ps aux --sort=-%mem | head -n 4 > report.txt
+ps aux | grep kworker > prc_snapshot.txt

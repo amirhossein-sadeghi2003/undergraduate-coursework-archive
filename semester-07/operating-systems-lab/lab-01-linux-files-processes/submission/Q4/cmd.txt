@@ -1,0 +1,3 @@
+grep -r "bash" /etc
+grep -rl "bash" /etc | grep "bash.bashrc"
+grep -r "if" /etc/bash.bashrc

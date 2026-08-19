@@ -1,0 +1,14 @@
+proc
+sys
+
+l > symbolic link
+d > directory
+
+root
+lost+file
+
+  
+Access: 2024-10-01 14:49:31.292960132 +0330
+
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ oslab10)   Gid: ( 1000/ oslab10)
+Access: 2024-10-01 14:54:56.919970552 +0330

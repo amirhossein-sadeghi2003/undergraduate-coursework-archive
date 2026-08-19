@@ -1,0 +1,23 @@
+--- a/question1.c	2026-08-19 22:07:59.380075631 +0000
++++ b/question1.c	2026-08-19 22:08:00.064732715 +0000
+@@ -2,8 +2,10 @@
+ #include <stdlib.h>
+ #include <unistd.h>
+ #include <signal.h>
+-void my_handler(int signum, siginfo_t *info)
++void my_handler(int signum, siginfo_t *info, void *context)
+ {
++    (void)signum;
++    (void)context;
+     void *fault_addr = info->si_addr;
+     printf("SIGSEGV is recived!\n");
+     printf("You tried to access: %p\n", fault_addr);
+@@ -14,7 +16,7 @@
+ {
+     struct sigaction info_sig;
+     info_sig.sa_sigaction = my_handler;
+-    info_sig.sa_flags = 0;
++    info_sig.sa_flags = SA_SIGINFO;
+     sigemptyset(&info_sig.sa_mask);
+ 
+     if (sigaction(SIGSEGV, &info_sig, NULL) == -1)

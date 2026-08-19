@@ -1,0 +1,7 @@
+ifconfig
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl open ssh
+ssh oslab10@172.21.49.201
+scp oslab10@172.21.49.201:/home/oslab10/Desktop/04_40011223_oslab10/Q1/report.txt .
+~                                               

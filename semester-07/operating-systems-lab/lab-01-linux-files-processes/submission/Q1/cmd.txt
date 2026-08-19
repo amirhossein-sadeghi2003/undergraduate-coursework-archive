@@ -1,0 +1,7 @@
+cd ~
+ls -l
+touch myfile
+stat myfile
+touch -a -t 2024030000 otherfile
+stat otherfile
+sudo mv other file ../../new
