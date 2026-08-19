@@ -1,0 +1,13 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Large local media
+*.mkv
+*.mp4
