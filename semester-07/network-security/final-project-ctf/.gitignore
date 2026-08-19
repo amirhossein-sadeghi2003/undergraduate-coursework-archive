@@ -1,0 +1,22 @@
+# Private original CTF artifacts
+*.private.pdf
+*.private.zip
+
+# Captures / keys / VPN material
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.ovpn
+
+# Local secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
