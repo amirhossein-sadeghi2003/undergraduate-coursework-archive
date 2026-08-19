@@ -1,0 +1,12 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Mininet / local output
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
