@@ -11,6 +11,12 @@
 *.user
 *.userosscache
 
+# Python environment and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
 # Operating-system clutter
 .DS_Store
 Thumbs.db

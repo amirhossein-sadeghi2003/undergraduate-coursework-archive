@@ -1,18 +1,19 @@
 # Database Laboratory
 
-This directory archives eight individual Microsoft SQL Server laboratory exercises completed as undergraduate coursework. The labs use T-SQL and the AdventureWorks sample database to progress from schema design and aggregate queries to stored procedures, triggers, data transfer, transaction isolation, and deadlocks.
+This directory archives eight individual Microsoft SQL Server laboratory exercises and one three-person course project completed as undergraduate coursework. The labs use T-SQL and the AdventureWorks sample database to progress from schema design and aggregate queries to stored procedures, triggers, data transfer, transaction isolation, and deadlocks. The project applies SQL Server concepts in an airline-reservation database with a Python/Tkinter interface.
 
 ## Course scope
 
-- **Work type:** Individual
+- **Work type:** Individual laboratories and a three-person team project
 - **Database platform:** Microsoft SQL Server
-- **Primary language:** T-SQL
-- **Main sample database:** AdventureWorks / AdventureWorks2012
+- **Primary languages:** T-SQL and Python
+- **Databases:** AdventureWorks / AdventureWorks2012 and a custom `AirlineDB`
 - **Laboratory count:** 8
+- **Course project:** 1 project developed across 3 phases
 
-## Laboratory index
+## Coursework index
 
-| Lab | Main focus | Archival assessment |
+| Item | Main focus | Archival assessment |
 | --- | --- | --- |
 | [Lab 01](lab-01-university-database/) | Schema extension, constraints, prerequisites, joins, and updates | Foundational submission with several schema and query limitations |
 | [Lab 02](lab-02-sales-aggregation-and-conditional-analysis/) | Aggregates, `CASE`, outer joins, and conditional sales analysis | Complete question coverage, but customer and product-sales logic contain material errors |
@@ -22,6 +23,7 @@ This directory archives eight individual Microsoft SQL Server laboratory exercis
 | [Lab 06](lab-06-stored-procedure-and-price-history-trigger/) | Stored procedures, monthly reporting, triggers, and price history | Strong set-based work and one of the best submissions in the course archive |
 | [Lab 07](lab-07-bulk-import-bcp-and-xml-export/) | `BULK INSERT`, BCP, `OPENROWSET`, XML, and `xp_cmdshell` | Advanced data-transfer topic, but the submitted script is not a working end-to-end pipeline |
 | [Lab 08](lab-08-transactions-isolation-and-deadlocks/) | Savepoints, isolation levels, blocking, and deadlocks | Strong systems-oriented lab that requires staged, concurrent SQL Server sessions |
+| [Airline Reservation Project](airline-reservation-project/) | Relational design, T-SQL programmability, SQL Server, `pyodbc`, and Tkinter | Three-person project whose scope was reduced from an Alibaba-like travel platform to an airline-only system |
 
 ## Directory convention
 
@@ -34,9 +36,11 @@ Each lab contains:
 
 Lab 03 uses `sanitized-submission/` because the submitted SQL contained a plaintext login password.
 
+The course project is organized by phase. Its README records the instructor-requested scope reduction and clearly identifies it as collaborative work. The original final submission also contained a SQL Server backup and a 10-minute screen-recorded demonstration; both are omitted from this public archive because the database is reproducible from SQL and the video would add substantial repository size.
+
 ## Archival approach
 
-Historical SQL is preserved rather than silently corrected. Public filenames were normalized and student-number identifiers were removed from archive paths. Each lab README documents missing work, incorrect assumptions, portability problems, and unverified behavior.
+Historical SQL is preserved rather than silently corrected. Public filenames were normalized and student-number identifiers were removed from archive paths. Each lab README documents missing work, incorrect assumptions, portability problems, and unverified behavior. The named Phase 1 team report is represented by a public summary so that teammates' names are not republished.
 
 The SQL was reviewed statically because the archival environment did not contain a configured Microsoft SQL Server instance with AdventureWorks. PDF handouts were rendered and inspected. The Lab 07 sales CSV was also structurally checked: it contains 2,209 five-field rows dated in July 2008.
 
@@ -48,4 +52,4 @@ The SQL was reviewed statically because the archival environment did not contain
 
 ## Portfolio use
 
-This course is best represented as one aggregate database-laboratory entry rather than eight separate projects. Labs 05, 06, and 08 provide the strongest evidence of practical T-SQL work. The remaining labs are retained to preserve the full learning progression and original coursework record.
+This course is best represented as one aggregate database-laboratory entry rather than eight separate projects. Labs 05, 06, and 08 provide the strongest evidence of practical T-SQL work. The airline-reservation project is the strongest integrated artifact, but it must be described as a three-person team project because individual responsibilities were not documented in the supplied files.
