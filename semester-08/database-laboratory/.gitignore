@@ -1,0 +1,17 @@
+# SQL Server database and backup files
+*.bak
+*.mdf
+*.ndf
+*.ldf
+*.trn
+
+# SQL Server Management Studio and editor state
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
